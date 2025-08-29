@@ -1,0 +1,684 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="icon" type="image/png" href="./Images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Best Prepaid, Postpaid Plans, Wifi Connection & Mobile Apps | Jio</title>
+  <style>
+    .swiper {
+      width: 83%;
+      height: 100%;
+      margin-top: 3px;
+    }
+
+    .swiper-slide {
+      position: relative;
+      /* important for overlay */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  </style>
+</head>
+
+<body class="font-sans">
+
+  <!-- Top Nav (same as before) -->
+  <div class="h-[89px] w-full text-white flex items-center justify-between border-b">
+    <!-- Left -->
+    <div class="flex items-center justify-center gap-2 ml-6">
+      <div class="ml- text-[20px] md:hidden">
+        <i class="fa-solid fa-bars hover:cursor-pointer" style="color: #000000;"></i>
+      </div>
+      <div
+        class="font-black text-lg md:text-xl  pt-1 flex justify-center bg-[#0f3cc9] h-[35px] w-[35px] rounded-full md:ml-36 md:h-[40px] md:w-[40px]">
+        <h1>Jio</h1>
+      </div>
+    </div>
+
+    <!-- Center Menu -->
+    <div class="hidden md:flex gap-11 pl-0 text-black font-medium text-gray-600 h-[35px] w-[950px] items-center">
+      <nav class="flex justify-center gap-11 bg-white h-[70px] items-center">
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Mobile</a>
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Home</a>
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Business</a>
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Devices</a>
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Apps</a>
+        <a href="#" class="relative text-gray-700 font-medium inline-block 
+          after:content-[''] after:absolute after:-bottom-4 after:left-[-10px] after:w-0 
+          after:h-[4px] after:bg-[#0f3cc9] hover:after:w-[calc(100%+20px)]">Support</a>
+      </nav>
+    </div>
+
+    <!-- Right -->
+    <div class="flex items-center mr-4 pl-20 md:pl-1 md:mr-20 w-[175px] h-[35px]">
+      <div class="flex items-center pr-3 h-[35px] w-[45px]">
+        <i class="text-[20px] fa-solid fa-magnifying-glass hover:cursor-pointer" style="color: #000000;"></i>
+      </div>
+      <div class="flex items-center justify-center mr-3 h-[35px] w-[35px] bg-[#e7ebf8] rounded-full">
+        <i class="text-[20px] fa-solid fa-user hover:cursor-pointer" style="color: #0f3cc9;"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Recharge Section -->
+  <div class="md:hidden hover:cursor-pointer">
+    <div class="ml-7 font-bold text-[25px] mt-1 mb-5">
+      Recharge or pay bills
+    </div>
+
+    <div class=" border border-gray-200 rounded-full bg-gray-100 w-60 h-10 flex justify-start ml-10">
+      <div
+        class="font-semibold text-[16px] mb-6 text-white bg-[#0f3cc9] w-[130px] h-[40px] flex items-center justify-center rounded-full">
+        Mobile
+      </div>
+      <div class="flex justify-center items-center text-blue-900 font-bold text-[16px] ml-7">
+        Home
+      </div>
+    </div>
+
+    <div class="flex  mt-4 items-center">
+      <div class="border border-gray-300 rounded-xl w-[290px] h-10 ml-10 pl-2 flex items-center font-semibold">+91
+        <input type="text" placeholder="Jio Number" class="outline-none pl-2 " />
+      </div>
+      <button
+        class="bg-[#0f3cc9] text-white font-bold px-5 py-2 rounded-full ml-4 hover:bg-[#98aeef] hover:text-black transition cursor-pointer">
+        Proceed
+      </button>
+    </div>
+  </div>
+
+  <!-- Swiper Section -->
+  <div class="h-[521px] md:mt-0 mt-12 w-full flex justify-center">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <img class="md:block hidden" src="./Images/1.webp" alt="">
+          <img class="md:hidden" src="./Images/matching-number-tab.webp" alt="">
+          <!-- Overlay Text + Button -->
+          <div class="absolute left-6 md:top-1/4 top-4 text-left text-white max-w-md">
+            <h2 class="md:text-[48px] text-[24px] font-black mb-1">Love your current mobile number?</h2>
+            <p class="text-[16px] md:text-[18px]  mb-2">Get a new Jio number matching your current one for just ₹50.</p>
+            <button
+              class="bg-[#0f3cc9] px-5 py-2 rounded-full text-white font-semibold hover:bg-[#98aeef] hover:text-black transition cursor-pointer">
+              Block your number now
+            </button>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <img class="md:block hidden" src="./Images/2.webp" alt="">
+          <img class="md:hidden" src="./Images/unlimited-offer-mob.webp" alt="">
+          <div class="absolute left-10 md:top-1/4 top-4 text-left text-white max-w-md">
+            <h2 class="text-[30px] md:text-[40px] font-black text-black md:mb-1 mb-4">90-day JioHotstar trial, FREE
+              Wi-Fi</h2>
+            <p class=" text-black text-[16px] md:text-[18px] font-semibold mb-3 md:mb-8">All yours with Jio Unlimited
+              Offers plans starting at ₹349</p>
+            <button
+              class="bg-[#0f3cc9] px-5 py-2 rounded-full text-white font-semibold hover:bg-[#98aeef] hover:text-black cursor-pointer transition">
+              Claim offer
+            </button>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <img class="md:block hidden" src="./Images/3.webp" alt="">
+          <img class="md:hidden" src="./Images/Jio-Games-July-Mob.webp" alt="">
+          <div class="absolute left-10 md:top-1/4 top-4 text-left text-white max-w-md">
+            <h2 class="text-[30px] md:text-[40px] font-black text-black md:mb-1 mb-4">Here'your free gaming pass </h2>
+            <p class="text-black text-[16px] md:text-[18px] font-semibold mb-3 md:mb-8">Time to turn your PC into a
+              gaming machine.</p>
+            <button
+              class="bg-[#00b259] px-5 py-2 rounded-full text-black font-semibold hover:bg-green-300 transition cursor-pointer">
+              Claim Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
+  <div class="w-full md:hidden flex justify-around h-70 mt-13 grid grid-flow-col grid-rows-2 gap-2">
+
+    <div class="h-27 w-27 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+
+      <div class="h-13 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] 
+              transition-all duration-300 hover:cursor-pointer ease-in">
+        <img class="h-8" src="./Images/jiohome.svg" alt="">
+      </div>
+
+      <div class="text-[12px] font-bold mt-2">Get JioHome</div>
+    </div>
+
+    <div class="h-25 w-30 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+      <div
+        class="h-13 flex items-center justify-center w-13 rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+        <img class="h-8" src="./Images/download2.svg" alt="">
+      </div>
+      <div class="text-[12px] font-bold mt-2">Matching Number</div>
+    </div>
+    <div class="h-27 w-27 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+      <div class="h-13 w-13 rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+        <img class="" src="./Images/express_sim_iOS.gif" alt="">
+      </div>
+      <div class="text-[12px] font-bold mt-2">Get Jio SIM</div>
+    </div>
+    <div class="h-27 w-27 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+      <div
+        class="h-13 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+        <img class="h-8" src="./Images/support.svg" alt="">
+      </div>
+      <div class="text-[12px] font-bold mt-2">Support</div>
+    </div>
+    <div class="h-27 w-27 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+      <div
+        class="h-13 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+        <img class="h-8" src="./Images/download1.svg" alt="">
+
+      </div>
+      <div class="h-8" class="text-[12px] font-bold mt-2">Port to Jio</div>
+    </div>
+
+  </div>
+
+  <div class="hidden md:block">
+    <div class="mt-8 flex flex-col  items-center w-full h-65 hover:cursor-pointer">
+      <div class="ml-7 font-black text-[39px] mt-1 mb-5">
+        Recharge or pay bills
+      </div>
+
+      <div class=" border border-gray-200 rounded-full bg-gray-100 w-60 h-10 flex justify-start ml-10">
+        <div
+          class="font-semibold text-[16px] mb-6 text-white bg-[#0f3cc9] w-[130px] h-[40px] flex items-center justify-center rounded-full">
+          Mobile
+        </div>
+        <div class="flex justify-center items-center text-blue-900 font-bold text-[16px] ml-7">
+          Home
+        </div>
+      </div>
+
+      <div class="flex  mt-4 items-center">
+        <div class="border border-gray-300 rounded-xl w-[290px] h-10 ml-10 pl-2 flex items-center font-semibold">+91
+          <input type="text" placeholder="Jio Number" class="outline-none pl-2 " />
+        </div>
+        <button
+          class="bg-[#0f3cc9] hover:cursor-pointer text-white font-bold px-5 py-2 rounded-full ml-4 hover:bg-[#98aeef] hover:text-black transition cursor-pointer">
+          Proceed
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="hidden md:block">
+    <div class="w-full flex justify-center items-center">
+    <div class="flex justify-around h-45  grid grid-flow-col grid-rows-1 gap-2 w-170 ">
+
+      <div class="h-30 w-37 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+
+        <div class="h-13 mt-4 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] 
+              transition-all duration-300 hover:cursor-pointer ease-in">
+          <img class="h-8" src="./Images/jiohome.svg" alt="">
+        </div>
+
+        <div class="text-[12px] font-bold mt-2">Get JioHome</div>
+      </div>
+
+      <div class="h-30 w-37 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+        <div
+          class="h-13 mt-4 flex items-center justify-center w-13 rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+          <img class="h-8" src="./Images/download2.svg" alt="">
+        </div>
+        <div class="text-[12px] font-bold mt-2">Matching Number</div>
+      </div>
+      <div class="h-30 w-37 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+        <div class="h-13 mt-4 w-13 rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+          <img class="" src="./Images/express_sim_iOS.gif" alt="">
+        </div>
+        <div class="text-[12px] font-bold mt-2">Get Jio SIM</div>
+      </div>
+      <div class="h-30 w-37 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+        <div
+          class="h-13 mt-4 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+          <img class="h-8" src="./Images/support.svg" alt="">
+        </div>
+        <div class="text-[12px] font-bold mt-2">Support</div>
+      </div>
+      <div class="h-30 w-37 hover:bg-[#e7ebf8] hover:rounded-2xl  
+            transition-all duration-300 hover:cursor-pointer ease-in flex flex-col items-center">
+        <div
+          class="h-13 mt-4 w-13 flex items-center justify-center rounded-full bg-[#e7ebf8] transition-all duration-300 hover:cursor-pointer ease-in">
+          <img class="h-8" src="./Images/download1.svg" alt="">
+
+        </div>
+        <div class="h-8" class="text-[12px] font-bold mt-2">Port to Jio</div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+<div class="w-full md:flex-row flex-col flex justify-center gap-7 px-10 bg-white">
+  <!-- Left Card -->
+  <div class="relative">
+    <img class="hover:cursor-pointer md:block hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]" src="./Images/jiohome-desktop.webp" alt="">
+    <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]" src="./Images/jiohome-mobile.webp" alt="">
+
+    <!-- Text Overlay -->
+    <div class="absolute top-10 left-5 md:left-8 text-white">
+      <p class="hover:cursor-pointer text-lg font-bold">JioHome</p>
+      <h2 class="hover:cursor-pointer md:hidden text-[23px] font-extrabold leading-snug mt-2">
+        Reimagine Wi-Fi & 
+        entertainment with 
+        JioFiber or AirFiber
+      </h2>
+      <h2 class="hover:cursor-pointer text-[35px] md:block hidden font-extrabold leading-snug mt-2">
+        Reimagine Wi-Fi & <br>
+        entertainment with <br>
+        JioFiber or AirFiber
+      </h2>
+      <button class="md:mt-6 mt-2 bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-semibold px-5 py-2 rounded-full transition-all duration-300">
+        Know more
+      </button>
+    </div>
+  </div>
+
+  <!-- Right Card -->
+  <div class="relative">
+    <img class="hover:cursor-pointer md:block hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]" src="./Images/true-5g-desk.webp" alt="">
+    <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]" src="./Images/true-5g-mob.webp" alt="">
+
+    <!-- Text Overlay -->
+    <div class="absolute top-10 left-8 text-black">
+      <span class="bg-[#0f3cc9]  text-white md:px-4 px-3 md:py-3 py-2 text-xs rounded-full font-black italic">TRUE 5G</span>
+      <h2 class="hover:cursor-pointer hidden md:block text-[35px] font-extrabold leading-snug mt-4">
+        Get used to buffer- <br>
+        free, zero-lag and <br>
+        unlimited 5G life
+      </h2>
+      <h2 class="hover:cursor-pointer md:hidden md:text-[35px] text-[23px] font-extrabold leading-snug mt-4">
+        Get used to buffer-
+        free, zero-lag and 
+        unlimited 5G life
+      </h2>
+      <button class="md:mt-6 mt-2 bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-semibold px-5 py-2 rounded-full transition-all duration-300">
+        Upgrade to 5G
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="w-full">
+  <div class="md:text-[40px] text-center leading-[32px] text-[32px] mt-20 justify-center font-[900] w-full">Check out India’s current favourites</div>
+  <div class="text-[16px] md:text-[18px] font-[500] text-center text-gray-500 flex justify-center mt-2">From Jio’s suite of apps, here are the ones everyone’s loving right now.</div>
+</div>
+
+<div>
+  <div class="w-full relative flex justify-center mt-6 md:mt-10 mb-4">
+    <img class="hover:cursor-pointer md:hidden md:h-[520px] h-[530px] md:w-[1170px] w-[460px] rounded-2xl" src="./Images/myjiomobile-24-06.webp" alt="">
+    <img class="hover:cursor-pointer md:block hidden md:h-[520px] h-[530px] md:w-[1170px] w-[460px] rounded-2xl" src="./Images/myjio-large-24-06.webp" alt="">
+
+    <div class="absolute top-7 md:left-10 left-20 text-white md:hidden">
+      <h2 class="font-bold">MyJio</h2>
+      <h1 class="font-extrabold text-[26px] pr-3 mt-2">Recharge, stream, pay, shop <br> and so much more</h1>
+      <button class="md:mt-6 mt-2 bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-bold px-5 py-2 rounded-full transition-all duration-300">
+        Download
+      </button>
+      <button class="md:mt-6 mt-2 border border-[0.1px] ml-2 hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-bold px-5 py-2 rounded-full transition-all duration-300">
+        Know More
+      </button>
+      
+    </div>
+    <div class="absolute top-30 left-56  text-white md:block hidden">
+      <h2 class="font-bold text-2xl">MyJio</h2>
+      <h1 class="font-extrabold text-[36px] pr-3 mt-2">
+        Recharge, stream,<br> 
+        pay, shop and so <br>
+         much more</h1>
+      <button class="bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-bold px-5 py-2 rounded-full transition-all duration-300">
+        Download
+      </button>
+      <button class="mt-3 border border-[0.1px] ml-2 hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-bold px-5 py-2 rounded-full transition-all duration-300">
+        Know More
+      </button>
+      
+    </div>
+  </div>
+</div>
+
+<div class="w-full md:flex-row flex-col flex justify-center gap-7 px-10 bg-white md:mb-22 mb-14  ">
+  <!-- Left Card -->
+  <div class="relative ">
+    <img class="hover:cursor-pointer md:block hidden rounded-2xl md:h-[720px] h-[520px] w-[575px] object-cover" src="./Images/jfs-m.webp" alt="">
+    <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[720px] h-[520px] w-[575px] object-cover" src="./Images/jfs-m.webp" alt="">
+
+    <!-- Text Overlay -->
+    <div class="absolute md:top-18 top-10 left-5 md:left-18 text-white">
+      <div>
+        <div ></div>
+        <div class="flex fl items-center gap-2">
+       <div class="h-10 w-10 bg-orange-300 rounded-full flex flex-col items-center"> 
+        
+  <div class="w-3 h-4 bg-white [clip-path:ellipse(30%_40%_at_50%_50%)]"></div>
+        <div class="h-3 w-6 bg-white rounded-b-full mt-1"></div>
+       </div> <p class="hover:cursor-pointer text-2xl font-bold"></p>JioFinance</p></div>
+      </div>
+      <h2 class="hover:cursor-pointer md:hidden text-[24px] font-extrabold leading-snug mt-2">
+        Open a bank account in minutes
+      </h2>
+       <p class="hover:cursor-pointer text-[16px] md:hidden font-bold leading-snug ">Plus get a virtual debit card, pay bills instantly, and <br> do more, right from your phone.</p>
+     
+      <h2 class="hover:cursor-pointer text-[40px] md:block hidden font-extrabold leading-snug mt-2">
+        Open a bank account <br> in minutes
+      </h2>
+      <p class="hover:cursor-pointer text-[16px] md:block hidden font-bold leading-snug ">Plus get a virtual debit card, pay bills instantly, and <br> do more, right from your phone.</p>
+      <button class="md:mt-6 mt-2 bg-[#e39b2b] hover:cursor-pointer hover:bg-orange-200 hover:text-black text-black font-semibold px-5 py-2 rounded-full transition-all duration-300">
+        Know more
+      </button>
+    </div>
+  </div>
+
+  <!-- Right Card -->
+  <div class="relative">
+    <img class="hover:cursor-pointer md:block hidden rounded-2xl md:h-[720px] h-[520px] w-[575px] object-cover" src="./Images/cloud-desk.webp" alt="">
+    <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[720px] h-[520px] w-[575px] object-cover" src="./Images/cloud-s.webp" alt="">
+
+    <!-- Text Overlay -->
+    <div class="absolute top-10 md:top-12 left-8 md:left-12 text-black">
+      <img class="md:h-10 md:ml-1" src="./Images/jiocloud-mobile-black-24.svg" alt="">
+      <h1 class="hover:cursor-pointer md:block hidden md:text-[40px] text-[25px] font-extrabold leading-snug mt-2">Back it up, relive it like magic </h1>
+      <h2 class="hover:cursor-pointer hidden md:block text-[18px] font-semibold leading-snug mt-4">
+        Your AI-powered cloud not only stores and organises <br> but now enhances your content beautifully too.
+      </h2>
+      <h1 class="hover:cursor-pointer md:hidden md:text-[35px] text-[25px] font-extrabold leading-snug mt-2">Back it up, relive it like magic </h1>
+      <h2 class="hover:cursor-pointer md:hidden md:text-[35px] text-[17px] font-bold leading-snug mt-1">
+        Your AI-powered cloud not only stores and organises but now enhances your content beautifully too.
+      </h2>
+      <button class="md:mt-6 mt-2 bg-sky-700 hover:cursor-pointer hover:bg-sky-200 hover:text-black text-white font-semibold px-5 py-2 rounded-full transition-all duration-300">
+        Know More
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="w-full flex justify-center items-center ">
+  <div class="md:w-200 w-110 text-center mb-10">
+  <h1 class="font-[900] leading-[32px] md:text-[40px] text-[32px] md:w-200 w-110 md:mb-4 mb-2">Good news! Getting started with a new Jio number just got faster</h1>
+  <p class="text-20px font-[500] text-gray-500">Now, don't just order your new Jio SIM and wait. Complete self-KYC from the comfort of your home online and get your SIM delivered for free.</p>
+  <button class="md:mt-4 mt-6 bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-semibold px-5 py-2 rounded-full transition-all duration-300">Get Jio SIM</button>
+</div>
+</div>
+
+<div class="w-full flex justify-center items-center mb-20 ">
+  <video class="md:h-full h-66 md:w-247 rounded-2xl " autoplay muted controls src="./Images/ekyc-video-animation.mp4"></video>
+</div>
+
+<div class=" h-90 w-full flex justify-center">
+<div class=" h-80 w-200">
+<div class="flex justify-center"><img src="./Images/jiobusiness-logo.svg" alt=""></div>
+<h1 class="text-[40px] font-[900] text-center mt-6 leading-[40px]">
+  Let's shape the future of your business together
+</h1>
+<p class="text-[16px] font-[500] leading-[20px] text-center mt-8">Discover innovative digital solutions tailored for all business sectors.</p>
+<div class="flex justify-center">
+  <button class=" mt-6 bg-[#0f3cc9] hover:cursor-pointer hover:bg-[#98aeef] hover:text-black text-white font-semibold px-5 py-2 rounded-full transition-all duration-300">Check it out</button>
+</div>
+
+</div>
+</div>
+
+ <div class="relative overflow-hidden md:h-100 h-80 mb-2 pl-43">
+    <!-- Slider Container -->
+    <div class="relative">
+      <!-- The slider -->
+      <div id="slider" class="flex space-x-4 transition-transform duration-300 ease-in-out">
+        <!-- Card 1 -->
+        <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
+          <div class="flex flex-col mb-2">
+            <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">🎧</div>
+            <h3 class="mt-4 text-[22px] font-bold">High-speed Connectivity</h3>
+          </div>
+          <p class="text-[16px] w-70 mb-2">From dedicated internet services like Integrated Lease Line and Jio Broadband to SD-WAN solutions, we've got your business connected.</p>
+          <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
+        </div>
+        <!-- Card 2 -->
+        <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
+          <div class="flex flex-col mb-2 ">
+            <div class="w-12 h-12 bg-black rounded-full  flex items-center justify-center text-white">🎤</div>
+            <h3 class="mt-4 text-[22px] font-bold">Voice & Collaboration</h3>
+          </div>
+          <p class="text-[16px]  w-72 mb-2">Enjoy IP-based voice and video calling, toll-free numbers, cloud-based HD voice, and reliable video conferencing-all in one place.</p>
+          <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
+        </div>
+        <!-- Add more cards as needed -->
+        <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
+          <div class="flex flex-col mb-2">
+            <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">📶</div>
+            <h3 class="mt-4 text-[22px] font-bold">Mobile Connectivity</h3>
+          </div>
+          <p class="text-[16px] w-69 mb-2">Explore our 4G/5G services, mobile hotspots, competitive plans, and devices to empower your business with top-tier mobile solutions.</p>
+          <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
+        </div>
+        <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
+          <div class="flex flex-col mb-2">
+            <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">📶</div>
+            <h3 class="mt-4 text-[22px] font-bold">Cybersecurity Solution</h3>
+          </div>
+          <p class="text-[16px] w-72 mb-2">Protect your organisation with Jio's cybersecurity offerings, like Threat and Vulnerability Management (TVM), ensuring complete digital security.</p>
+          <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
+        </div>
+        <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
+          <div class="flex flex-col mb-2">
+            <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">📶</div>
+            <h3 class="mt-4 text-[22px] font-bold">Internet of Things  (IoT)</h3>
+          </div>
+          <p class="text-[16px] mb-2">Unlock the potential of IoT-from Smart Asset solutions and Smart Fleet management and Smart Electricity Metering.</p>
+          <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
+        </div>
+        <!-- Add more cards if needed -->
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button id="prev" class="absolute md:block hidden h-10 w-10 top-74 transform -translate-y-1/2 bg-gray-300 rounded-full  hover:bg-gray-400 z-10">
+      &#8592;
+    </button>
+    <button id="next" class="absolute md:block hidden right-40 h-10 w-10 top-74 transform -translate-y-1/2 bg-gray-300 rounded-full hover:bg-gray-400 z-10">
+       &#8594;
+    </button>
+  </div>
+
+  <div class="w-full relative h-full flex justify-center items-center mb-20 ">
+<img class="rounded-3xl md:block hidden" src="./Images/L_1184x520-17.webp" alt="">
+<img class="rounded-3xl md:hidden h-130 w-135" src="./Images/S_620x480-17.webp" alt="">
+<div class="absolute md:top-40 top-70 md:left-55 text-white w-110">
+<h1 class="hover:cursor-pointer md:text-[38px] text-[25px] font-extrabold leading-snug">Careers at Jio </h1>
+      <h2 class="hover:cursor-pointer  md:text-[20px] text-[17px] font-semibold leading-snug mt-4">
+       Join our team! Explore job openings at Reliance Jio across different roles.
+      </h2>
+      <button class="md:mt-6 mt-2 bg-[#4848f9] hover:cursor-pointer hover:bg-blue-900 hover:text-black text-white font-bold px-6 py-3 rounded-full transition-all duration-300">
+        View job openings
+      </button>
+</div>
+  </div>
+
+  <div class="w-full h-40  bg-white flex  justify-center">
+    <div class="md:w-1/2 w-130 w-110 text-center h-40 flex flex-col items-center justify-around">
+      <h1 class="font-[900] text-[32px] md:text-[40px] leading-[32px] md:leading-[40px]">Know what's up with Jio</h1>
+      <p class="font-[500] text-[16px] md:text-[18px] leading-[24px]">Connecting everyone everywhere, Jio is making waves in India and beyond</p>
+      <button class="font-[700] text-[16px] leading-[24px] text-blue-900">Explore all stories </button>
+    </div>
+  </div>
+  <div class="w-full md:h-150 h-100 relative">
+    <div class="md:w-94 w-74 h-115 hover:cursor-pointer rounded-2xl absolute md:top-12 top-5 md:left-41 left-4">
+      <img class="md:h-70 h-52 object-cover rounded-2xl" src="./Images/thumbnail-mobile.webp" alt="">
+      <h1 class="text-[12px] font-[700] leading-[16px] bg-[#0c5273] text-white px-3 py-1 rounded-sm absolute md:bottom-32 bottom-54">
+        JIO TRUE 5G
+      </h1>
+      <P class="md:text-[18px] text-[16px] font-[700] leading-[24px] md:mt-15 mt-12">
+Reshaping Punjab's digital life with truly 5G internet Connectivity
+      </P>
+      <h1 class="font-[700] text-[16px] leading-[24px] text-blue-900 mt-3 ml-2">Know more > </h1>
+    </div>
+    <div class="md:w-94 h-115  rounded-2xl absolute md:top-12 top-5 md:left-141 left-80">
+      
+      <img class="md:h-70 h-52 object-cover md:rounded-2xl rounded-l-2xl " src="./Images/t1humbnailmobile.webp" alt="">
+      <button class="text-[12px] font-[700] leading-[16px] bg-[#0c5273] text-white px-3 py-1 rounded-sm absolute bottom-54 md:bottom-32">
+        JIOHOME
+      </button> 
+      <P class="md:hidden text-[16px] font-[700] leading-[24px] mt-12">
+        Empowering the lives family digitally!
+      </P>
+      <P class="text-[18px] font-[700] leading-[24px] md:block hidden mt-15">
+        Empowering the lives of Ballav family digitally!
+      </P>
+      <button class="font-[700] text-[16px] leading-[24px] text-blue-900 mt-3 ml-2">Know more > </button>
+   
+    </div>
+    <div class="w-94 h-115 md:block hidden rounded-2xl absolute top-12 left-242">
+      
+      <img class="h-70 object-cover rounded-2xl" src="./Images/thumbnail2image.webp" alt="">
+      <button class="text-[12px] font-[700] leading-[16px] bg-[#0c5273] text-white px-3 py-1 rounded-sm absolute bottom-32">
+        JIOBUSINESS
+      </button>
+       <P class="text-[18px] font-[700] leading-[24px] mt-15">
+        Preserving Paithani art digitally
+      </P>
+      <button class="font-[700] text-[16px] leading-[24px] text-blue-900 mt-9 ml-2">Know more > </button>
+   
+    </div>
+    <div class="w-38 h-115 md:block hidden rounded-2xl rounded-r absolute top-12 left-342">
+      <img class="h-70 object-cover rounded-2xl" src="./Images//nov-story-thumb.webp" alt="">
+      <button class="text-[12px] font-[700] leading-[16px] bg-[#0c5273] text-white px-3 py-1 rounded-sm absolute bottom-32">
+        JIO TRUE 5G
+      </button>
+       <P class="text-[18px] font-[700] leading-[24px] mt-15">Jio 5g SIM activat
+      </P>
+      <button class="font-[700] text-[16px] leading-[24px] text-blue-900 mt-9 ml-2">Know more > </button>
+   
+    </div>
+    
+    
+    </div>
+<div class="md:h-80 h-105 bg-blue-800 text-white flex flex-col justify-around items-center">
+  <h1 class="md:text-[64px] text-[40px] font-[900] md:leading-[64px] leading-[40px] md:mt-13 mt-10">Need guidance?</h1>
+  <p class="md:text-[18px] text-[16px]  font-[500] leading-[24px]">We'd love to help you</p>
+  <div>
+    <ul class="md:flex md:block hidden space-x-6 mb-4">
+      <li class="border px-3 py-2 rounded-full"> <i class="fa-solid fa-message mx-2" style="color: #ffffff;"></i>Support</li>
+      <li class="border px-3 py-2 rounded-full"><i class="fa-solid fa-comment mx-2" style="color: #ffffff;"></i>Chat with us</li>
+      <li class="border px-3 py-2 rounded-full"><i class="fa-solid fa-phone mx-2" style="color: #ffffff;"></i>Call us</li>
+      <li class="border px-3 py-2 rounded-full"><i class="fa-solid fa-store mx-2" style="color: #ffffff;"></i>Find a store</li>
+    </ul>
+    <ul class="flex md:hidden flex-col space-y-4 mb-4">
+      <li class="border px-32 py-2 rounded-full"> <i class="fa-solid fa-message mx-2" style="color: #ffffff;"></i>Support</li>
+      <li class="border px-32 py-2 rounded-full"><i class="fa-solid fa-comment mx-2" style="color: #ffffff;"></i>Chat with us</li>
+      <li class="border px-32 py-2 rounded-full"><i class="fa-solid fa-phone mx-2" style="color: #ffffff;"></i>Call us</li>
+      <li class="border px-32 py-2 rounded-full"><i class="fa-solid fa-store mx-2" style="color: #ffffff;"></i>Find a store</li>
+    </ul>
+  </div>
+</div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    });
+
+const slider = document.getElementById('slider');
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
+
+const cards = slider.children;
+const cardCount = cards.length;
+
+// Width calculation
+const cardStyle = getComputedStyle(cards[0]);
+const cardWidth = cards[0].offsetWidth;
+const marginRight = parseInt(cardStyle.marginRight);
+const totalCardWidth = cardWidth + marginRight;
+
+let currentIndex = 0;
+let clickCount = 0; // count for next button clicks
+
+function updateSlider() {
+  const maxTranslateX = (cardCount - 1) * totalCardWidth;
+  const translateX = currentIndex * totalCardWidth;
+  const finalTranslateX = Math.min(translateX, maxTranslateX);
+  slider.style.transform = `translateX(-${finalTranslateX}px)`;
+}
+
+nextBtn.addEventListener('click', () => {
+  if (clickCount < 2 && currentIndex < cardCount - 1) {
+    currentIndex++;
+    updateSlider();
+    clickCount++;
+    if (clickCount >= 2) {
+      nextBtn.disabled = true; // disable after 2 clicks
+      nextBtn.classList.add('opacity-50', 'cursor-not-allowed'); // optional styling
+    }
+  }
+});
+
+prevBtn.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSlider();
+    // Reset click count and enable next button if needed
+    if (clickCount >= 2) {
+      clickCount = 1; // reduce count back if going back
+      nextBtn.disabled = false;
+      nextBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+    }
+  }
+});
+  </script>
+</body>
+
+</html>
