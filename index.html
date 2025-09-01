@@ -20,7 +20,6 @@
 
     .swiper-slide {
       position: relative;
-      /* important for overlay */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -37,9 +36,8 @@
 
 <body class="font-sans w-105 md:w-full">
 
-  <!-- Top Nav (same as before) -->
   <div class="h-[89px] w-full text-white flex items-center justify-between border-b">
-    <!-- Left -->
+    
     <div class="flex items-center justify-center gap-2 ml-6">
       <div class="ml- text-[20px] md:hidden">
         <i class="fa-solid fa-bars hover:cursor-pointer" style="color: #000000;"></i>
@@ -50,7 +48,6 @@
       </div>
     </div>
 
-    <!-- Center Menu -->
     <div class="hidden  md:flex gap-11 mr-22 pl-0 text-black font-medium text-gray-600 h-[35px] w-[950px] items-center">
       <nav class="flex justify-center gap-11 bg-white h-[70px] items-center">
         <a href="#" class="relative text-gray-700 font-medium inline-block 
@@ -74,7 +71,6 @@
       </nav>
     </div>
 
-    <!-- Right -->
     <div class="flex items-center mr-4 pl-20 md:pl-1 md:mr-20 w-[175px] h-[35px]">
       <div class="flex items-center pr-3 h-[35px] w-[45px]">
         <i class="text-[20px] fa-solid fa-magnifying-glass hover:cursor-pointer" style="color: #000000;"></i>
@@ -84,7 +80,6 @@
       </div>
     </div>
   </div>
-  <!-- Recharge Section -->
   <div class="md:hidden hover:cursor-pointer">
     <div class="ml-7 font-bold text-[25px] mt-1 mb-5">
       Recharge or pay bills
@@ -111,7 +106,6 @@
     </div>
   </div>
 
-  <!-- Swiper Section -->
   <div class="h-[521px] md:mt-0 mt-12 w-full flex justify-center">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -297,14 +291,14 @@
     </div>
   </div>
   <div class="w-full md:flex-row flex-col flex justify-center gap-8 px-10 bg-white">
-    <!-- Left Card -->
+    
     <div class="relative">
       <img class="hover:cursor-pointer md:block hidden rounded-3xl md:h-[700px] h-[520px] w-[640px]"
         src="./Images/jiohome-desktop.webp" alt="">
       <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]"
         src="./Images/jiohome-mobile.webp" alt="">
 
-      <!-- Text Overlay -->
+      
       <div class="absolute top-10 left-5 md:left-8 text-white">
         <p class="hover:cursor-pointer text-lg font-bold">JioHome</p>
         <h2 class="hover:cursor-pointer md:hidden text-[23px] font-extrabold leading-snug mt-2">
@@ -324,14 +318,12 @@
       </div>
     </div>
 
-    <!-- Right Card -->
     <div class="relative">
       <img class="hover:cursor-pointer md:block hidden rounded-3xl md:h-[700px] h-[520px] w-[640px]"
         src="./Images/true-5g-desk.webp" alt="">
       <img class="hover:cursor-pointer md:hidden rounded-2xl md:h-[700px] h-[520px] w-[575px]"
         src="./Images/true-5g-mob.webp" alt="">
 
-      <!-- Text Overlay -->
       <div class="absolute top-10 left-8 text-black">
         <span class="bg-[#0f3cc9]  text-white md:px-4 px-3 md:py-3 py-2 text-xs rounded-full font-black italic">TRUE
           5G</span>
@@ -400,14 +392,14 @@
   </div>
 
   <div class="w-full md:flex-row flex-col flex justify-center gap-7 px-10 bg-white md:mb-22 mb-14  ">
-    <!-- Left Card -->
+    
     <div class="relative ">
       <img class="hover:cursor-pointer md:block hidden rounded-2xl h-[520px] w-[650px] object-cover"
         src="./Images/jfs-m.webp" alt="">
       <img class="hover:cursor-pointer md:hidden rounded-2xl  h-[520px] w-[575px] object-cover"
         src="./Images/jfs-m.webp" alt="">
 
-      <!-- Text Overlay -->
+      
       <div class="absolute md:top-18 top-10 left-5 md:left-18 text-white">
         <div>
           <div></div>
@@ -438,14 +430,14 @@
       </div>
     </div>
 
-    <!-- Right Card -->
+   
     <div class="relative">
       <img class="hover:cursor-pointer md:block hidden rounded-2xl h-[520px] w-[650px] object-cover"
         src="./Images/cloud-desk.webp" alt="">
       <img class="hover:cursor-pointer md:hidden rounded-2xl h-[520px] w-[575px] object-cover"
         src="./Images/cloud-s.webp" alt="">
 
-      <!-- Text Overlay -->
+      
       <div class="absolute top-10 md:top-12 left-8 md:left-12 text-black">
         <img class="md:h-10 md:ml-1" src="./Images/jiocloud-mobile-black-24.svg" alt="">
         <h1 class="hover:cursor-pointer md:block hidden md:text-[40px] text-[25px] font-extrabold leading-snug mt-2">
@@ -501,11 +493,10 @@
   </div>
 
   <div class="relative overflow-hidden md:h-100 h-80 mb-2 pl-43">
-    <!-- Slider Container -->
+   
     <div class="relative">
-      <!-- The slider -->
       <div id="slider" class="flex space-x-4 transition-transform duration-300 ease-in-out">
-        <!-- Card 1 -->
+       
         <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
           <div class="flex flex-col mb-2">
             <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">🎧</div>
@@ -515,7 +506,7 @@
             to SD-WAN solutions, we've got your business connected.</p>
           <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
         </div>
-        <!-- Card 2 -->
+        
         <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
           <div class="flex flex-col mb-2 ">
             <div class="w-12 h-12 bg-black rounded-full  flex items-center justify-center text-white">🎤</div>
@@ -525,7 +516,7 @@
             voice, and reliable video conferencing-all in one place.</p>
           <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
         </div>
-        <!-- Add more cards as needed -->
+      
         <div class="w-[380px] h-[260px] border border-gray-300 bg-white p-4 rounded-lg flex-shrink-0">
           <div class="flex flex-col mb-2">
             <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white">📶</div>
@@ -553,11 +544,11 @@
             and Smart Electricity Metering.</p>
           <a href="#" class="text-blue-800 text-[16px] font-bold">Know more</a>
         </div>
-        <!-- Add more cards if needed -->
+        
       </div>
     </div>
 
-    <!-- Navigation Buttons -->
+    
     <button id="prev"
       class="absolute md:block hidden h-10 w-10 top-74 transform -translate-y-1/2 bg-gray-300 rounded-full  hover:bg-gray-400 z-10">
       &#8592;
@@ -677,7 +668,7 @@
   <div class="h-141 md:flex justify-center md:block hidden w-full">
     <div class="w-[80%] mt-2.5 ">
       <div class="px-5  flex py-10 justify-between">
-        <!-- Our offerings -->
+       
         <div class="">
           <h3 class="text-[16px] font-[900] mb-8.5">Our offerings</h3>
           <ul class="space-y-4.5 text-[16px] text-gray-600 font-[500]">
@@ -690,7 +681,7 @@
           </ul>
         </div>
 
-        <!-- Support -->
+       
         <div>
           <h3 class="text-[16px] font-[900] mb-8.5">Support</h3>
           <ul class="space-y-4.5 text-[16px] text-gray-600 font-[500]">
@@ -703,7 +694,7 @@
           </ul>
         </div>
 
-        <!-- Our Company -->
+       
         <div>
           <h3 class="text-[16px] font-[900] mb-8.5">Our company</h3>
           <ul class="space-y-4.5 text-[16px] text-gray-600 font-[500]">
@@ -716,7 +707,7 @@
           </ul>
         </div>
 
-        <!-- Useful Links -->
+       
         <div>
           <h3 class="text-[16px] font-[900] mb-8">Useful links</h3>
           <ul class="space-y-4.5 text-[16px] text-gray-600 font-[500]">
@@ -732,7 +723,7 @@
           </ul>
         </div>
 
-        <!-- Connect with us -->
+       
         <div class="mr-13">
           <h3 class="text-[16px] font-[900] mb-4">Connect with Us</h3>
           <div class="flex space-x-3 mb-5">
@@ -829,7 +820,7 @@
 </div>
   </div>
 
-  <!-- Swiper JS -->
+  
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
@@ -852,14 +843,14 @@
     const cards = slider.children;
     const cardCount = cards.length;
 
-    // Width calculation
+    
     const cardStyle = getComputedStyle(cards[0]);
     const cardWidth = cards[0].offsetWidth;
     const marginRight = parseInt(cardStyle.marginRight);
     const totalCardWidth = cardWidth + marginRight;
 
     let currentIndex = 0;
-    let clickCount = 0; // count for next button clicks
+    let clickCount = 0; 
 
     function updateSlider() {
       const maxTranslateX = (cardCount - 1) * totalCardWidth;
@@ -874,8 +865,8 @@
         updateSlider();
         clickCount++;
         if (clickCount >= 2) {
-          nextBtn.disabled = true; // disable after 2 clicks
-          nextBtn.classList.add('opacity-50', 'cursor-not-allowed'); // optional styling
+          nextBtn.disabled = true; 
+          nextBtn.classList.add('opacity-50', 'cursor-not-allowed'); 
         }
       }
     });
@@ -884,9 +875,8 @@
       if (currentIndex > 0) {
         currentIndex--;
         updateSlider();
-        // Reset click count and enable next button if needed
         if (clickCount >= 2) {
-          clickCount = 1; // reduce count back if going back
+          clickCount = 1; 
           nextBtn.disabled = false;
           nextBtn.classList.remove('opacity-50', 'cursor-not-allowed');
         }
